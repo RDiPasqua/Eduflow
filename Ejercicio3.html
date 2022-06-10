@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulario de registro</title>
 </head>
+
 <body>
-    <h1> Formulario de registro</h1>
+   <h1> Formulario de registro</h1>
 
- <form action="formulario"></form>
- 
-       <form action="Name"> 
-           <label for="Name">Nombre: </label>
-           <input type="text" id="name" name="Nombre" > 
+   <form action="formulario">
 
-        </form>
-        <br>
 
-        <form action="Apellido">
-           <Label for="Name">Apellidos: </Label>
-           <input type="text" id="Lastname" name="Apellidos" >
+      <label for="Name">Nombre: </label>
+      <input type="text" id="name" name="Nombre">
+      <br>
 
-        </form>
-        <br>
-        
-       <form action="gender"> 
-        
-           <label for="gender">Sexo: </label>
 
-           <input type="radio" name="gender" id="Sexo" value="Hombre">
-           <label for="male">Hombre</label>
+      <br>
 
-           <input type="radio" name="gender" id="Sexo" value="Mujer">
-           <label for="female">Mujer</label>
 
-        </form> 
-        <br>
+      <Label for="Name">Apellidos: </Label>
+      <input type="text" id="lastname" name="lastname">
+      <br>
 
-        <form action="Email">
-           <label for="email">Correo: </label>
-           <input type="email" name="email" id="email">
 
-        </form> 
-        <br>
+      <br>
 
-        <form action="Newslatter">
-           <input type="checkbox" name="Newslatter" id="Newslatter">
-           <label for="newslatter">Deseo recibir información sobre novedades y ofertas</label>
 
-        </form>
-        <br>
+      <label for="gender">Sexo: </label>
 
-        <form action="Terms">
-           <input type="checkbox" name="terms" id="terms">
-           <label for="terms">Declaro haber leido y aceptar las condiciones generales del programa y la normativa de protección de datos</label>
+      <input type="radio" name="gender" id="gender" value="male">
+      <label for="male">Hombre</label>
 
-        </form>
-        <br>
+      <input type="radio" name="gender" id="gender" value="female">
+      <label for="female">Mujer</label>
+      <br>
 
-           <button type="submit">Enviar</button>
-   
-        
+      <br>
 
-    </form>
+      <form action="Email">
+         <label for="email">Correo: </label>
+         <input type="email" name="email" id="email">
+         <br>
+
+
+         <br>
+
+
+         <input type="checkbox" name="Newslatter" id="Newslatter">
+         <label for="newslatter">Deseo recibir información sobre novedades y ofertas</label>
+         <br>
+
+
+         <br>
+
+
+         <input type="checkbox" name="terms" id="terms">
+         <label for="terms">Declaro haber leido y aceptar las condiciones generales del programa y la normativa de
+            protección de datos</label>
+         <br>
+
+
+         <br>
+
+         <button type="submit">Enviar</button>
+
+      </form>
 </body>
+
 </html>
